@@ -132,6 +132,21 @@ th {
   border-bottom: 0;
 }
 
+button {
+  padding: 12px;
+  border: 0;
+}
+
+button:disabled {
+  background-color: #4d5868;
+  cursor: not-allowed;
+}
+
+#update {
+  width: 10%;
+  margin: 1% 45%;
+}
+
 main a {
   color: rgb(152, 152, 255);
 }
@@ -146,6 +161,10 @@ main a:visited {
   background-color: rgb(33, 45, 68);
   border-radius: 8px;
   margin: 24px auto;
+}
+
+.form h2 {
+  text-align: center;
 }
 
 .form-control {
@@ -165,7 +184,6 @@ main a:visited {
 
 .form button {
   width: 100%;
-  padding: 12px;
   cursor: pointer;
 }
 
